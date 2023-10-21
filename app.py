@@ -32,7 +32,7 @@ def main():
             umur = st.number_input('masukan usia',1)
             # f_stress = st.number_input('faktor stress', 1.0)
     
-    with st.expander('ANTROPOMETRI'):
+    with st.expander('NILAI LAB'):
         col1a, col2a = st.columns(2)
         with col1a: gdp  = st.number_input('gula darah puasa',1)
         with col1a: gds  = st.number_input('gula darah sewaktu',1)
