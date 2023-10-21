@@ -63,7 +63,7 @@ def main():
                 st.success(f'LEMAK : {perkeni["lemak"]}')
                 st.success(f'KARBOHIDRAT : {perkeni["karbo"]}')
                 st.success(f'GULA : {perkeni["gula"]}')
-                st.success(f'GULA / spoon : {perkeni["gula_sendok"]}')
+                st.success(f'GULA / SDT : {perkeni["gula_sendok"]}')
                 
     
         with st.expander('KEBUTUHAN ZAT GIZI SEKALI MAKAN '):
