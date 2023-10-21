@@ -57,13 +57,13 @@ def main():
 
             with col2:
                 st.subheader('KEBUTUHAN')
-                st.success(f'BEE : {perkeni["bmr"]}')
-                st.success(f'TEE : {perkeni["energi"]}')
+                st.success(f'BMR: {perkeni["bmr"]}')
+                st.success(f'ENERGI : {perkeni["energi"]}')
                 st.success(f'PROTEIN : {perkeni["protein"]}')
                 st.success(f'LEMAK : {perkeni["lemak"]}')
                 st.success(f'KARBOHIDRAT : {perkeni["karbo"]}')
-                # st.success(f'CAIRAN : {cairan}')
-                
+                st.success(f'GULA : {perkeni["gula"]}')
+                st.success(f'GULA / spoon : {perkeni["gula_sendok"]}')
                 
     
         with st.expander('KEBUTUHAN ZAT GIZI SEKALI MAKAN '):

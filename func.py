@@ -49,6 +49,8 @@ def perkeni(berat_badan, tinggi_badan, umur, gender, faktor_aktivitas):
     protein = 0.15 * energi / 4
     lemak = 0.25 * energi / 9
     karbo = 0.65 * energi / 4
+    gula = 0.10*energi/4
+    gula_sendok = karbo/gula
 
     # perhitungan sekali makan
     energi_pagi = 0.35 * energi
@@ -64,7 +66,7 @@ def perkeni(berat_badan, tinggi_badan, umur, gender, faktor_aktivitas):
     return {'energi':energi, 'protein':protein, 'lemak':lemak, 'karbo':karbo,
             'energi_pagi':energi_pagi, 'protein_pagi':protein_pagi, 'lemak_pagi':lemak_pagi, 'karbo_pagi':karbo_pagi,
             'energi_malam':energi_malam, 'protein_malam':protein_malam, 'lemak_malam':lemak_malam, 'karbo_malam':karbo_malam,
-            'imt':imt, 'bbi':bbi, 'bmr':bmr
+            'imt':imt, 'bbi':bbi, 'bmr':bmr, 'gula':gula, 'gula_sendok':gula_sendok
             }
 
 # gula 2 jam 
