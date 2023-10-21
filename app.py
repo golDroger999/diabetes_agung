@@ -62,7 +62,7 @@ def main():
                 st.success(f'PROTEIN : {perkeni["protein"]}')
                 st.success(f'LEMAK : {perkeni["lemak"]}')
                 st.success(f'KARBOHIDRAT : {perkeni["karbo"]}')
-                st.success(f'GULA : {perkeni["gula"]}')
+                # st.success(f'GULA : {perkeni["gula"]}')
                 st.success(f'GULA / SDT : {perkeni["gula_sendok"]}')
                 
     
