@@ -49,7 +49,7 @@ def main():
                 st.subheader('DATA UKUR')
                 st.success(f'BERAT BADAN : {bb} kg')
                 st.success(f'TINGGI BADAN : {tb} cm')
-                st.success(f'GENDER/SEX : {gender}') 
+                st.success(f'GENDER : {gender}') 
                 st.success(f'UMUR : {umur} tahun')
                 st.success(f'IMT : {perkeni["imt"]}')
                 st.success(f'BBI : {perkeni["bbi"]}')
